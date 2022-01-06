@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 5px;
+    border-left: 5px solid;
+    border-image: linear-gradient(pink, palevioletred);
+    border-image-slice: 1;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0;
+}
+h3{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+h5{
+    font-style: italic;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.violet{
+    color: violet;
+}
+.mission2022{
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.mission2022 img{
+    width: 60%;
+}
+.orange{
+    color: rgb(173, 43, 206);
+    font-weight: bold;
+}
+.link-button{
+    background-image: linear-gradient(rgb(182, 41, 128), rgb(195, 0, 255));
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.missionbox{
+    width: 500%;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.missionbox img{
+    width: 40%;
+    padding-top: 10px;
+}
+#mission{
+    background-color: rgb(202, 240, 227);
+}
+#vision{
+    background-color: rgb(243, 217, 217);
+}
+#goal{
+    background-color: rgb(243, 234, 217);
+}
+.development{
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 4%;
+    text-rendering: optimizeLegibility;
+    padding-top: 50px;
+}
+.development img{
+    width: 70%;
+    padding-left: 70px;
+    padding-top: 40px;
+}  
+#dev1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position:left;
+} 
+.my-world{
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 5%;
+    text-rendering: optimizeLegibility;
+    padding-top: 50px;
+}
+.my-world img{
+    width: 70%;
+    padding-left: 120px;
+    padding-top: 35px;
+} 
+#dev2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    width:95%;
+    height: 480px;
+    background-position: bottom right;
+}
+.covid{
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 4%;
+    padding-top: 30px;
+    font-size: bold;
+}
+.covid img{
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.orange{
+    color: orange;
+}
+#dev3{
+    background-image: url(images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: left;
+}
+footer{
+    color: rgb(37, 10, 10);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
